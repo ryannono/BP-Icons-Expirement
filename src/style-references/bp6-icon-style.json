@@ -1,0 +1,49 @@
+{
+  "iconStyle": {
+    "theme": "2px thick fill",
+    "description": "This icon style uses bold, solid geometry with a 2px stroke as its defining visual feature. Icons are drawn on a 16×16 pixel canvas, using a direct 1:1 coordinate system (viewBox=\"0 0 16 16\"), ensuring tight alignment and pixel-perfect scaling.\n\nEach icon is constructed using stroke-based paths, with a consistent 2px stroke weight. These paths may also include a solid fill, allowing icons to appear both outlined and filled. The fill and stroke are both rendered in the same color (typically via currentColor), and are visually balanced to feel geometric and grounded.\n\nThe visual presence is dense, durable, and strong, making this style ideal for tools, system UIs, and places where icons need to hold visual weight.\n\nDesign rules:\n\nStroke must always be 2px thick\n\nFill is allowed (and common) alongside stroke\n\nAll paths should use rounded linecaps and joins\n\nAvoid details smaller than 2px\n\nKeep the structure simple, with a single compound path preferred\n\nIcons should appear monotone, with no gradients, no shadows, and no nested fills\n\nMust align perfectly to the 16×16 grid with clean visual spacing\n\nStyle overall is flat, anti-aliased, and highly legible even at small sizes\n\nThis is a filled-stroke hybrid style that leans into strong visibility and visual confidence.",
+    "geometry": {
+      "renderedSize": {
+        "width": "16px",
+        "height": "16px"
+      },
+      "viewBox": "0 0 16 16",
+      "designGrid": "16x16 units",
+      "alignment": "centered",
+      "scalable": true
+    },
+    "path": {
+      "fill": {
+        "enabled": true,
+        "color": "currentColor"
+      },
+      "stroke": {
+        "enabled": true,
+        "width": "2px",
+        "color": "currentColor",
+        "linecap": "round",
+        "linejoin": "round"
+      },
+      "renderingMethod": "stroke-based shape with optional fill",
+      "opticalWeight": "2px",
+      "structure": "usually single compound path, closed shapes"
+    },
+    "designRules": {
+      "appearance": "solid and bold",
+      "contrastStrategy": "filled body with strong visible edge",
+      "enforceStrokeWidth": "2px",
+      "allowFillAndStrokeTogether": true,
+      "disallowNestedFills": true,
+      "flattenedVisualStyle": true,
+      "monotone": true,
+      "antiAliased": true,
+      "pixelAligned": true,
+      "styleSummary": [
+        "Thick 2px visual weight",
+        "Fill and stroke can coexist",
+        "Icons should appear bold and solid",
+        "No interior detail thinner than 2px"
+      ]
+    }
+  }
+}

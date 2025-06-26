@@ -1,0 +1,67 @@
+{
+  "id": "resp_685dc87bfa88819a85676639d40a7c820c370e1be30652a8",
+  "object": "response",
+  "created_at": 1750976636,
+  "status": "completed",
+  "background": false,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "o3-2025-04-16",
+  "output": [
+    {
+      "id": "rs_685dc87e94c8819a83e2ac5b1c326eb40c370e1be30652a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_685dc91e8254819a9a8b6dac6d492ac70c370e1be30652a8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <path d=\"M2 2H14V14H2V10H10V6H6\"/>\n</svg>"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "reasoning": {
+    "effort": "high",
+    "summary": null
+  },
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "text"
+    }
+  },
+  "tool_choice": "auto",
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 726,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 7455,
+    "output_tokens_details": {
+      "reasoning_tokens": 7360
+    },
+    "total_tokens": 8181
+  },
+  "user": null,
+  "metadata": {},
+  "output_text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <path d=\"M2 2H14V14H2V10H10V6H6\"/>\n</svg>"
+}

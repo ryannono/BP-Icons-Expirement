@@ -1,3 +1,8 @@
+export type IconStyle = (typeof IconStyle)[keyof typeof IconStyle];
+export type IconCategory = (typeof IconCategory)[keyof typeof IconCategory];
+export type FigmaCategory = (typeof FigmaCategory)[keyof typeof FigmaCategory];
+export type ErrorTuple<Value> = [Value, null] | [null, Error];
+
 export const IconStyle = {
   REGULAR: "regular",
   THIN: "thin",
@@ -48,10 +53,6 @@ export const FigmaCategory = {
   TIME: "time",
   WEATHER: "weather & nature",
 } as const;
-
-export type IconStyle = (typeof IconStyle)[keyof typeof IconStyle];
-export type IconCategory = (typeof IconCategory)[keyof typeof IconCategory];
-export type FigmaCategory = (typeof FigmaCategory)[keyof typeof FigmaCategory];
 
 export interface IconEntry {
   name: string;

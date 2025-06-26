@@ -1,8 +1,8 @@
-import { IconEntry, IconCategory, FigmaCategory } from "./types";
+import { IconEntry, IconCategory, FigmaCategory } from "../types.js";
 
-export type PhosphorIcon = (typeof icons)[number];
+export type PhosphorIcon = (typeof phosphorIcons)[number];
 
-export const icons = (<const>[
+export const phosphorIcons = (<const>[
   {
     name: "acorn",
     pascal_name: "Acorn",

@@ -1,0 +1,45 @@
+{
+  "iconStyle": {
+    "theme": "1px thin outline",
+    "description": "This icon style is designed to look like thin, elegant outlines — but technically, the effect is achieved using filled shapes that simulate outlines, not actual strokes. Icons are designed within a 256×256 unit coordinate system, which scales down to 16×16 pixels in rendered form. This high-resolution viewBox allows for precise control over thin geometry even at small display sizes.\n\nThere is no stroke used in this style. Instead, each icon is a single filled path that traces the shape of a thin outline. The result is a visually crisp 1px-thin line, often appearing \"hollow\" or transparent in the middle. This makes the style lightweight, airy, and clean — perfect for modern, minimal interfaces.\n\nDesign rules:\n\nStroke is disabled\n\nFill is enabled, but only used to define the outline shape\n\nThe path must not fill in the icon's interior — interiors remain transparent\n\nUse a single compound path when possible, and avoid layering or nesting\n\nDesign must be monotone, with no gradients or shadows\n\nShape should simulate a 1px visual weight at 16px size\n\nGeometry should remain pixel-aligned optically, but not forced to pixel grid\n\nEmphasis is on refined, minimal detail, never crowded or heavy\n\nThis style is purely fill-based, but carefully sculpted to produce clean, stroked-style icons. It's ideal for UIs where subtlety, sophistication, and elegance are priorities.",
+    "geometry": {
+      "renderedSize": {
+        "width": "16px",
+        "height": "16px"
+      },
+      "viewBox": "0 0 16 16",
+      "designGrid": "16x16 units",
+      "alignment": "centered",
+      "scalable": true
+    },
+    "path": {
+      "fill": {
+        "enabled": true,
+        "color": "currentColor"
+      },
+      "stroke": {
+        "enabled": false
+      },
+      "renderingMethod": "filled path that visually outlines shape (no interior fill)",
+      "opticalWeight": "1px",
+      "structure": "single outline-shaped compound path"
+    },
+    "designRules": {
+      "appearance": "hollow and lightweight",
+      "contrastStrategy": "transparent interior with dark edge path",
+      "enforceStrokeWidth": "optically 1px (via fill)",
+      "allowFillAndStrokeTogether": false,
+      "disallowNestedFills": true,
+      "flattenedVisualStyle": true,
+      "monotone": true,
+      "antiAliased": true,
+      "pixelAligned": false,
+      "styleSummary": [
+        "Thin 1px outline simulated using filled shape",
+        "No actual stroke element used",
+        "Interior areas remain transparent",
+        "Delicate and minimal"
+      ]
+    }
+  }
+}
